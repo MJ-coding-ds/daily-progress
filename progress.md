@@ -9,6 +9,18 @@
 ## Day 2: - May 2 
 -Arrays and Object 
 
-##Day 3 - May 3 
+## Day 3 - May 3 
 - Object Challenge 
 - JSON Intro 
+
+## Day 4 - May 4 
+-Function Basics
+-More on Param & Arguments 
+
+## Day 5 - 5 May
+- Global & Function Scope 
+-Block Scope 
+-Nested Scope 
+-Declaration versus Expression
+-Arrow Function
+-Function Challenge
