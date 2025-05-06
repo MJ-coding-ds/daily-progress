@@ -24,3 +24,7 @@
 -Declaration versus Expression
 -Arrow Function
 -Function Challenge
+
+## Day 6 - 6 May
+- Call Stack 
+-Execution  Context in Action 
