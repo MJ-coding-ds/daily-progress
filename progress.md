@@ -28,3 +28,7 @@
 ## Day 6 - 6 May
 - Call Stack 
 -Execution  Context in Action 
+
+## Day 7 - 7 May
+- If Else, Nesting
+- Switches 
