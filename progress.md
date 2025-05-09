@@ -32,3 +32,10 @@
 ## Day 7 - 7 May
 - If Else, Nesting
 - Switches 
+## Day 8 - 8 May
+- Truthy & Falsy 
+-Logical Operator and Assignment 
+
+## Day 9 - 9 May 
+- Ternary Operators
+- FOR Loop 
