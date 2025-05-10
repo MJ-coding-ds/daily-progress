@@ -39,3 +39,7 @@
 ## Day 9 - 9 May 
 - Ternary Operators
 - FOR Loop 
+
+## Day 10 - 10 May
+-Break & Continue 
+-While & Do While Loops 
