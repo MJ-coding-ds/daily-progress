@@ -1,0 +1,26 @@
+var CMDBUtils = {
+
+    // Validierungsprüfung für die IP Adresse
+    validateIpAddress: function(ip, action) {
+        // Definiere ein reguläres Ausdrucksmuster für eine gültige IPv4-Adresse
+        var ipRegex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/;
+        
+        // Prüfung für CMDB DPPs (IP darf leer sein)
+        if (action == "IpWithNull") {
+            // Überprüfe, ob die übergebene IP-Adresse dem Muster entspricht
+            if (ipRegex.test(ip) || ip == null) {
+                return null; // Gültige IP-Adresse oder leer, gibt null zurück
+            } else {
+                return "Es muss eine gültige IPv4-Adresse eingegeben werden. Format z.B. 192.168.0.1";
+            }
+        }
+        // Prüfung für Aktionen, in denen die IP nicht leer sein darf
+        if (action == "IpWithoutNull") {
+            if (ipRegex.test(ip)) {
+                return null; // Gültige IP-Adresse, gibt null zurück
+            } else {
+                return "Die IP-Adresse muss gefüllt und gültig sein. Format z.B. 192.168.0.1";
+            }
+        }
+    }
+};

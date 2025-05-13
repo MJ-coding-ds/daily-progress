@@ -1,0 +1,23 @@
+var NetworkUtils = {
+
+    // Validierungsprüfung für die IP Adresse
+    validateIpAddress: function(ip, action) {
+        var ipRegex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/;
+        
+        if (action == "IpWithNull") {
+            if (ipRegex.test(ip) || ip == null) {
+                return null;
+            } else {
+                return "Es muss eine gültige IPv4-Adresse eingegeben werden. Format z.B. 192.168.0.1";
+            }
+        }
+        
+        if (action == "IpWithoutNull") {
+            if (ipRegex.test(ip)) {
+                return null;
+            } else {
+                return "Die IP-Adresse muss gefüllt und gültig sein. Format z.B. 192.168.0.1";
+            }
+        }
+    }
+};

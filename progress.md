@@ -47,3 +47,7 @@
 ## Day 11 - 11 May
 - For of Loop 
 -Foor in Loop 
+
+## Day 12 - 12 May
+-Array.for Each 
+- Array.filter 
