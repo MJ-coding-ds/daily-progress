@@ -51,3 +51,10 @@
 ## Day 12 - 12 May
 -Array.for Each 
 - Array.filter 
+
+## Day 13 - 13 May
+-Regex Mac Adresse 
+-Regex IP Adresse 
+
+## Day 14 - 14 May
+-Teamleitung
