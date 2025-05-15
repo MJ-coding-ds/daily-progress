@@ -58,3 +58,6 @@
 
 ## Day 14 - 14 May
 -Teamleitung
+
+## Day 15 - 15 May 
+- Array map 
