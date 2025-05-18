@@ -37,5 +37,28 @@ const people = [
   },
 ];
 
-// Challenge 2
+// const youngPeople = people
+// .filter((person) => person.age <= 25)
+// .map((person) => ( ({
+//   name:person.firstName + ' ' + person.lastName,
+//   email:person.email,
+// })));
+// console.log(youngPeople);
+
+
+
+// Challenge 2: add all of the positive numbers in the array 
 const numbers = [2, -30, 50, 20, -12, -9, 7];
+const positivSum = numbers
+.filter(num => num > 0)
+.reduce((sum, num) => sum + num, 0);
+console.log(positivSum);
+
+// Challenge 3: create a new array capitalizdWords with the words the 
+//word array with the first letter of eah word capitalized. 
+const words = ['coder', 'programmer', 'developer']; 
+const cWords = words.map((word)=> {
+  return word[0].toUpperCase() + word.slice(1, word.length);
+});
+
+console.log(cWords); 

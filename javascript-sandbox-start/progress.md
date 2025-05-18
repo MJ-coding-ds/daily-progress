@@ -61,3 +61,12 @@
 
 ## Day 15 - 15 May 
 - Array map 
+
+## Day 16 - 16 May
+- Array reduce 
+
+## Day 17 - 17 May 
+- Document element Properties 
+
+## Day 18 - 18 May 
+- two challenges from Chapter 6 
