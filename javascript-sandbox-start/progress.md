@@ -70,3 +70,6 @@
 
 ## Day 18 - 18 May 
 - two challenges from Chapter 6 
+
+## Day 19 - 19 May
+-Dcouemnt Element Properties
